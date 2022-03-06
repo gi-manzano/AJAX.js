@@ -5,7 +5,7 @@ const PRODUCTS =
         id: 1,
         nombre: "Ingles Junior",
         tipo: "curso",
-       
+    
         desc: "Un curso ideal para vos",
         precio: 12000,
         img: "../../public/assets/curso1.jpg.jpg",
