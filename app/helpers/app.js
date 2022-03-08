@@ -7,6 +7,7 @@ const contenedorCarrito = document.getElementById('carrito-contenedor');
 
  export default function mostrarProductos(array) {
 
+
   if (localStorage.getItem("carrito")) {
 
    
@@ -32,6 +33,8 @@ const contenedorCarrito = document.getElementById('carrito-contenedor');
       });
     })
   }
+
+
 
   // aplicando operador AND && , dos condiciones verdaderas
 function recuperar(){
@@ -78,6 +81,7 @@ function recuperar(){
 
     
   });
+
 }
 
 
