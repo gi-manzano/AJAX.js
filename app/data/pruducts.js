@@ -47,7 +47,7 @@ const PRODUCTS =
 
     {
         id: 5,
-        nombre: "Francies Intermedio",
+        nombre: "Frances Intermedio",
         tipo: "curso",
         idioma: "Frances",
         desc: "Un curso ideal para vos",

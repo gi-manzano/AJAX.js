@@ -38,13 +38,27 @@ export default function carritoIndex(productoId) {
   const eliminarProductoCarrito = (productoId) => {
     let botonEliminar = document.getElementById(`eliminar${productoId}`);
 
+
     botonEliminar.addEventListener('click', () => {
       botonEliminar.parentElement.remove();
+
+      //aplicando libreria a carrito curso eliminado
+      Toastify({
+        text: " 🙈 Curso eliminado",
+        className: "info",
+        style: {
+          background: "red",
+        }
+      }).showToast();
+
       carritoDeCompras = carritoDeCompras.filter(el => el.id != productoId);
       actualizarCarrito(carritoDeCompras);
     });
+
+  
   }
 
   contarProductosRepetidos(productoRepetido);
   eliminarProductoCarrito(productoId);
+
 }

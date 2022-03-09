@@ -32,6 +32,7 @@ const contenedorCarrito = document.getElementById('carrito-contenedor');
         actualizarCarrito(carritoStorage);
       });
     })
+    
   }
 
 
